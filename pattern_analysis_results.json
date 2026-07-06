@@ -1,0 +1,539 @@
+{
+  "basic_stats": {
+    "total_samples": 3894,
+    "fields": [
+      "text_id",
+      "original_text",
+      "initial_state",
+      "target_state",
+      "operation",
+      "device_name",
+      "station_name",
+      "line_name"
+    ]
+  },
+  "pattern_samples": {
+    "state_transitions": [
+      {
+        "text": "10kV展路灯线前一路灯环网箱变04开关由热备用转运行",
+        "extracted_initial": "热备用",
+        "extracted_target": "运行",
+        "labeled_initial": "热备用",
+        "labeled_target": "运行",
+        "match": true
+      },
+      {
+        "text": "10kV东开线万科汉口传奇开闭所09开关至末端段线路由检修转冷备用（万科汉口传奇开闭所09开关冷备用）",
+        "extracted_initial": "检修",
+        "extracted_target": "冷备用（万科汉口传奇",
+        "labeled_initial": "检修",
+        "labeled_target": "冷备用",
+        "match": false
+      },
+      {
+        "text": "山坡站35kV乌山安土线由检修转冷备用",
+        "extracted_initial": "检修",
+        "extracted_target": "冷备用",
+        "labeled_initial": "检修",
+        "labeled_target": "冷备用",
+        "match": true
+      },
+      {
+        "text": "10kV正星辰线幸福湾星语#6公用配电室01开关由热备用转运行",
+        "extracted_initial": "热备用",
+        "extracted_target": "运行",
+        "labeled_initial": "热备用",
+        "labeled_target": "运行",
+        "match": true
+      },
+      {
+        "text": "10kV翠明二回紫润明园1#开闭所08开关由热备用转运行",
+        "extracted_initial": "热备用",
+        "extracted_target": "运行",
+        "labeled_initial": "热备用",
+        "labeled_target": "运行",
+        "match": true
+      },
+      {
+        "text": "20kv佛57佛新一回 佛祖岭三路蓝焰环网柜06开关至末端段线路由运行转检修（佛祖岭三路蓝焰环网柜06开关冷备用）",
+        "extracted_initial": "运行",
+        "extracted_target": "检修（佛祖岭三路蓝焰",
+        "labeled_initial": "运行",
+        "labeled_target": "冷备用",
+        "match": false
+      },
+      {
+        "text": "中梁天玺壹号#4公配室10kV#7公变支线由冷备用转热备用",
+        "extracted_initial": "冷备用",
+        "extracted_target": "热备用",
+        "labeled_initial": "冷备用",
+        "labeled_target": "热备用",
+        "match": true
+      },
+      {
+        "text": "10kV柏泉镇还建四期#3公配室#3公配302开关（至泉58开关）线路由检修转冷备用",
+        "extracted_initial": "检修",
+        "extracted_target": "冷备用",
+        "labeled_initial": "检修",
+        "labeled_target": "冷备用",
+        "match": true
+      },
+      {
+        "text": "10kV洪珈线竹苑开闭所02开关由冷备用转热备用",
+        "extracted_initial": "冷备用",
+        "extracted_target": "热备用",
+        "labeled_initial": "冷备用",
+        "labeled_target": "热备用",
+        "match": true
+      },
+      {
+        "text": "燕岭花园#2开闭所10kV岭公三回线由热备用转运行",
+        "extracted_initial": "热备用",
+        "extracted_target": "运行",
+        "labeled_initial": "热备用",
+        "labeled_target": "运行",
+        "match": true
+      },
+      {
+        "text": "10kV佳海二回#3环网柜05开关由热备用转冷备用",
+        "extracted_initial": "热备用",
+        "extracted_target": "冷备用",
+        "labeled_initial": "热备用",
+        "labeled_target": "冷备用",
+        "match": true
+      },
+      {
+        "text": "10kV卓西线关西开闭所14开关由冷备用转热备用",
+        "extracted_initial": "冷备用",
+        "extracted_target": "热备用",
+        "labeled_initial": "冷备用",
+        "labeled_target": "热备用",
+        "match": true
+      },
+      {
+        "text": "10kV廖61南开二回线华科环网箱待用04开关至末端段线路由冷备用转检修（华科环网箱待用04开关冷备用）",
+        "extracted_initial": "冷备用",
+        "extracted_target": "检修（华科环网箱待用",
+        "labeled_initial": "冷备用",
+        "labeled_target": "检修",
+        "match": false
+      },
+      {
+        "text": "10kV柏泉镇还建四期#3公配室#3公配302开关（至泉58开关）线路由检修转冷备用",
+        "extracted_initial": "检修",
+        "extracted_target": "冷备用",
+        "labeled_initial": "检修",
+        "labeled_target": "冷备用",
+        "match": true
+      },
+      {
+        "text": "10kV球南线馨悦国际开闭所03开关由冷备用转热备用",
+        "extracted_initial": "冷备用",
+        "extracted_target": "热备用",
+        "labeled_initial": "冷备用",
+        "labeled_target": "热备用",
+        "match": true
+      },
+      {
+        "text": "侏508马赛线侏508004开关由冷备用转热备用",
+        "extracted_initial": "冷备用",
+        "extracted_target": "热备用",
+        "labeled_initial": "冷备用",
+        "labeled_target": "热备用",
+        "match": true
+      },
+      {
+        "text": "10kV唐仓线蓝空开闭所06开关由冷备用转运行",
+        "extracted_initial": "冷备用",
+        "extracted_target": "运行",
+        "labeled_initial": "冷备用",
+        "labeled_target": "运行",
+        "match": true
+      },
+      {
+        "text": "10kV巡604军运四回黄家湖大道#01环网家环12（至黄家湖大道#02环网军环21）线路由冷备用转检修",
+        "extracted_initial": "冷备用",
+        "extracted_target": "检修",
+        "labeled_initial": "冷备用",
+        "labeled_target": "检修",
+        "match": true
+      },
+      {
+        "text": "10kV巡604军运四回黄家湖大道#01环网家环12（至黄家湖大道#02环网军环21）线路由冷备用转检修",
+        "extracted_initial": "冷备用",
+        "extracted_target": "检修",
+        "labeled_initial": "冷备用",
+        "labeled_target": "检修",
+        "match": true
+      },
+      {
+        "text": "10kV港蔡线江南村开闭所05开关由运行转热备用",
+        "extracted_initial": "运行",
+        "extracted_target": "热备用",
+        "labeled_initial": "运行",
+        "labeled_target": "热备用",
+        "match": true
+      }
+    ],
+    "device_extractions": [
+      {
+        "text": "10kV展路灯线前一路灯环网箱变04开关由热备用转运行",
+        "extracted_devices": [
+          "10kV展路灯线前一路灯环网箱变04开关",
+          "10kV展路灯线",
+          "10kV展路灯线"
+        ],
+        "labeled_device": "前一路灯环网箱变04开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV东开线万科汉口传奇开闭所09开关至末端段线路由检修转冷备用（万科汉口传奇开闭所09开关冷备用）",
+        "extracted_devices": [
+          "10kV东开线万科汉口传奇开闭所09开关",
+          "万科汉口传奇开闭所09开关",
+          "10kV东开线万科汉口传奇开闭所09开关至末端段线",
+          "10kV东开线万科汉口传奇开闭所09开关至末端段线"
+        ],
+        "labeled_device": "万科汉口传奇开闭所09开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "山坡站35kV乌山安土线由检修转冷备用",
+        "extracted_devices": [
+          "山坡站35kV乌山安土线",
+          "35kV乌山安土线"
+        ],
+        "labeled_device": "35kV乌山安土线",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV正星辰线幸福湾星语#6公用配电室01开关由热备用转运行",
+        "extracted_devices": [
+          "6公用配电室01开关",
+          "10kV正星辰线",
+          "10kV正星辰线"
+        ],
+        "labeled_device": "幸福湾星语#6公用配电室01开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV翠明二回紫润明园1#开闭所08开关由热备用转运行",
+        "extracted_devices": [
+          "开闭所08开关"
+        ],
+        "labeled_device": "紫润明园1#开闭所08开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "20kv佛57佛新一回 佛祖岭三路蓝焰环网柜06开关至末端段线路由运行转检修（佛祖岭三路蓝焰环网柜06开关冷备用）",
+        "extracted_devices": [
+          "佛祖岭三路蓝焰环网柜06开关",
+          "佛祖岭三路蓝焰环网柜06开关",
+          "佛祖岭三路蓝焰环网柜06开关至末端段线"
+        ],
+        "labeled_device": "佛祖岭三路蓝焰环网柜06开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "中梁天玺壹号#4公配室10kV#7公变支线由冷备用转热备用",
+        "extracted_devices": [
+          "7公变支线"
+        ],
+        "labeled_device": "中梁天玺壹号#4公配室10kV#7公变支线",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV柏泉镇还建四期#3公配室#3公配302开关（至泉58开关）线路由检修转冷备用",
+        "extracted_devices": [
+          "3公配302开关",
+          "至泉58开关"
+        ],
+        "labeled_device": "泉58开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV洪珈线竹苑开闭所02开关由冷备用转热备用",
+        "extracted_devices": [
+          "10kV洪珈线竹苑开闭所02开关",
+          "10kV洪珈线",
+          "10kV洪珈线"
+        ],
+        "labeled_device": "竹苑开闭所02开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "燕岭花园#2开闭所10kV岭公三回线由热备用转运行",
+        "extracted_devices": [
+          "2开闭所10kV岭公三回线",
+          "10kV岭公三回线"
+        ],
+        "labeled_device": "燕岭花园#2开闭所10kV岭公三回线",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV佳海二回#3环网柜05开关由热备用转冷备用",
+        "extracted_devices": [
+          "3环网柜05开关"
+        ],
+        "labeled_device": "#3环网柜05开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV卓西线关西开闭所14开关由冷备用转热备用",
+        "extracted_devices": [
+          "10kV卓西线关西开闭所14开关",
+          "10kV卓西线",
+          "10kV卓西线"
+        ],
+        "labeled_device": "关西开闭所14开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV廖61南开二回线华科环网箱待用04开关至末端段线路由冷备用转检修（华科环网箱待用04开关冷备用）",
+        "extracted_devices": [
+          "10kV廖61南开二回线华科环网箱待用04开关",
+          "华科环网箱待用04开关",
+          "10kV廖61南开二回线华科环网箱待用04开关至末端段线",
+          "10kV廖61南开二回线华科环网箱待用04开关至末端段线"
+        ],
+        "labeled_device": "华科环网箱待用04开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV柏泉镇还建四期#3公配室#3公配302开关（至泉58开关）线路由检修转冷备用",
+        "extracted_devices": [
+          "3公配302开关",
+          "至泉58开关"
+        ],
+        "labeled_device": "10kV柏泉镇还建四期#3公配室#3公配302开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV球南线馨悦国际开闭所03开关由冷备用转热备用",
+        "extracted_devices": [
+          "10kV球南线馨悦国际开闭所03开关",
+          "10kV球南线",
+          "10kV球南线"
+        ],
+        "labeled_device": "馨悦国际开闭所03开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "侏508马赛线侏508004开关由冷备用转热备用",
+        "extracted_devices": [
+          "侏508马赛线侏508004开关",
+          "侏508马赛线"
+        ],
+        "labeled_device": "侏508004开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV唐仓线蓝空开闭所06开关由冷备用转运行",
+        "extracted_devices": [
+          "10kV唐仓线蓝空开闭所06开关",
+          "10kV唐仓线",
+          "10kV唐仓线"
+        ],
+        "labeled_device": "蓝空开闭所06开关",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV巡604军运四回黄家湖大道#01环网家环12（至黄家湖大道#02环网军环21）线路由冷备用转检修",
+        "extracted_devices": [],
+        "labeled_device": "黄家湖大道#01环网家环12",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV巡604军运四回黄家湖大道#01环网家环12（至黄家湖大道#02环网军环21）线路由冷备用转检修",
+        "extracted_devices": [],
+        "labeled_device": "黄家湖大道#02环网军环21",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV港蔡线江南村开闭所05开关由运行转热备用",
+        "extracted_devices": [
+          "10kV港蔡线江南村开闭所05开关",
+          "10kV港蔡线",
+          "10kV港蔡线"
+        ],
+        "labeled_device": "江南村开闭所05开关",
+        "contains_labeled": true
+      }
+    ],
+    "station_extractions": [
+      {
+        "text": "10kV展路灯线前一路灯环网箱变04开关由热备用转运行",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV东开线万科汉口传奇开闭所09开关至末端段线路由检修转冷备用（万科汉口传奇开闭所09开关冷备用）",
+        "extracted_stations": [
+          "10kV东开线万科汉口传奇开闭所",
+          "万科汉口传奇开闭所"
+        ],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "山坡站35kV乌山安土线由检修转冷备用",
+        "extracted_stations": [
+          "山坡站"
+        ],
+        "labeled_station": "山坡站",
+        "contains_labeled": true
+      },
+      {
+        "text": "10kV正星辰线幸福湾星语#6公用配电室01开关由热备用转运行",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV翠明二回紫润明园1#开闭所08开关由热备用转运行",
+        "extracted_stations": [
+          "开闭所"
+        ],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "20kv佛57佛新一回 佛祖岭三路蓝焰环网柜06开关至末端段线路由运行转检修（佛祖岭三路蓝焰环网柜06开关冷备用）",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "中梁天玺壹号#4公配室10kV#7公变支线由冷备用转热备用",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV柏泉镇还建四期#3公配室#3公配302开关（至泉58开关）线路由检修转冷备用",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV洪珈线竹苑开闭所02开关由冷备用转热备用",
+        "extracted_stations": [
+          "10kV洪珈线竹苑开闭所"
+        ],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "燕岭花园#2开闭所10kV岭公三回线由热备用转运行",
+        "extracted_stations": [
+          "2开闭所"
+        ],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV佳海二回#3环网柜05开关由热备用转冷备用",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV卓西线关西开闭所14开关由冷备用转热备用",
+        "extracted_stations": [
+          "10kV卓西线关西开闭所"
+        ],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV廖61南开二回线华科环网箱待用04开关至末端段线路由冷备用转检修（华科环网箱待用04开关冷备用）",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV柏泉镇还建四期#3公配室#3公配302开关（至泉58开关）线路由检修转冷备用",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV球南线馨悦国际开闭所03开关由冷备用转热备用",
+        "extracted_stations": [
+          "10kV球南线馨悦国际开闭所"
+        ],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "侏508马赛线侏508004开关由冷备用转热备用",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV唐仓线蓝空开闭所06开关由冷备用转运行",
+        "extracted_stations": [
+          "10kV唐仓线蓝空开闭所"
+        ],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV巡604军运四回黄家湖大道#01环网家环12（至黄家湖大道#02环网军环21）线路由冷备用转检修",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV巡604军运四回黄家湖大道#01环网家环12（至黄家湖大道#02环网军环21）线路由冷备用转检修",
+        "extracted_stations": [],
+        "labeled_station": null,
+        "contains_labeled": false
+      },
+      {
+        "text": "10kV港蔡线江南村开闭所05开关由运行转热备用",
+        "extracted_stations": [
+          "10kV港蔡线江南村开闭所"
+        ],
+        "labeled_station": null,
+        "contains_labeled": false
+      }
+    ]
+  },
+  "extraction_rules": {
+    "状态转换规则": {
+      "模式": "由(.{1,10})转(.{1,10})",
+      "说明": "识别'由...转...'模式，提取初始状态和目标状态",
+      "示例": "由热备用转运行 -> 初始状态:热备用, 目标状态:运行"
+    },
+    "设备名称规则": {
+      "模式": [
+        "(\\w+开关)",
+        "(\\w+闸刀)",
+        "(\\d+kV\\w+线)"
+      ],
+      "说明": "提取包含开关、闸刀、线路等关键词的设备名称",
+      "示例": "前一路灯环网箱变04开关 -> 操作设备:前一路灯环网箱变04开关"
+    },
+    "厂站名称规则": {
+      "模式": [
+        "(\\w+站)",
+        "(\\w+所)"
+      ],
+      "说明": "提取以'站'或'所'结尾的厂站名称",
+      "示例": "山坡站35kV乌山安土线 -> 设备所属厂站:山坡站"
+    },
+    "线路名称规则": {
+      "模式": "(\\d+kV\\w+线)",
+      "说明": "提取电压等级+线路名称的模式",
+      "示例": "10kV展路灯线 -> 设备所属线路:10kV展路灯线"
+    },
+    "操作类型规则": {
+      "模式": "根据状态转换推断",
+      "说明": "大多数操作为'状态转换'",
+      "示例": "热备用转运行 -> 操作:状态转换"
+    }
+  }
+}
